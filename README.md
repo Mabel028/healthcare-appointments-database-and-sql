@@ -58,11 +58,43 @@ All analytical queries are documented and commented in:
 - `healthcare_analysis_queries.sql`
 
 ---
+Data Analysis and Pivot Table Visualization
+
+**Objective:** Analyze healthcare data exported from SQL queries in Excel, using Pivot Tables and Pivot Charts to extract meaningful insights.
+
+**Activities Completed:**
+- Exported SQL query results for all analytical queries, including:
+  - Total appointments per service
+  - Appointment volume by department
+  - Monthly appointment trends
+  - Appointment status distribution
+  - Patient age analysis
+  - Service utilisation patterns
+- Created Pivot Tables for each dataset to summarize key metrics and calculate aggregates such as totals, counts, and averages.
+- Generated Pivot Charts to visualize insights, including:
+  - Average patient age distribution
+  - Appointment counts by service and department
+  - Monthly appointment trends
+  - Appointment status breakdown
+- Ensured all Pivot Tables and charts were correctly linked to source data, clearly
+- labeled, and professionally formatted.
+
+**Skills Demonstrated:**
+- SQL data extraction and aggregation
+- Data validation and quality checking
+- Pivot Table and Pivot Chart creation in Excel
+- Multi-dimensional data analysis and visualization
+- Professional presentation of analytical insights for healthcare datasets
+
+**Outcome:** All exported SQL query datasets were accurately analyzed in Excel, providing clear
+visualizations and actionable insights for healthcare operations. This process demonstrates 
+both technical SQL and analytical Excel skills.
 
 ## Example Insights
 - Certain services show higher utilisation, indicating demand concentration.
 - Appointment trends vary across departments, highlighting workload distribution.
 - Patient age analysis provides demographic insight useful for service planning.
+- Also, Patients age vary based on recorded dates of birth
 
 ---
 
