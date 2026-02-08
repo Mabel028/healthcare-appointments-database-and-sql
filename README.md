@@ -105,6 +105,16 @@ both technical SQL and analytical Excel skills.
    pending, or cancelled appointments, informing workflow management.
 
 ---
+## Business Insights & Recommendations
+
+- **Radiology Demand:** Radiology recorded the highest number of appointments (2), indicating higher
+   demand compared to other departments. Additional staffing or extended availability may improve service efficiency.
+- **Underutilised Services:** Outpatient Services recorded zero appointments, suggesting either low demand
+   or potential issues with scheduling, referrals, or service awareness.
+- **Seasonal Trends:** Appointment volume was higher in January and February compared to March, which may
+   indicate seasonal demand patterns. This insight could inform workforce and capacity planning.
+- **Patient Demographics:** The average patient age of 39.2 years suggests services are primarily used by
+  working-age adults, which may influence appointment scheduling and service design.
 
 ## How to Run This Project
 1. Run `healthcare_schema.sql` to create the database structure.
@@ -113,7 +123,14 @@ both technical SQL and analytical Excel skills.
 4. Export query results to Excel for further analysis and visualisation.
 
 ---
+## Data Assumptions & Limitations
 
+- The dataset is based on a small, simulated sample and does not represent real patient data.
+- Appointment counts are limited, so trends may not reflect real-world volumes.
+- Age calculations are based on date of birth and the current system date.
+- Analysis assumes all records are accurate and complete.
+  
+---
 ## Learning Outcomes
 - Designed a relational healthcare database using SQL
 - Applied joins, aggregations, and analytical queries
