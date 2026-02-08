@@ -91,10 +91,18 @@ visualizations and actionable insights for healthcare operations. This process d
 both technical SQL and analytical Excel skills.
 
 ## Example Insights
-- Certain services show higher utilisation, indicating demand concentration.
-- Appointment trends vary across departments, highlighting workload distribution.
-- Patient age analysis provides demographic insight useful for service planning.
-- Also, Patients age vary based on recorded dates of birth
+- **Service Utilisation:** Each service has at least 1 appointment, with the **Radiology department**
+- having the highest count (2 appointments). Most other services have 1 appointment, while the
+-  **Outpatient Services department** has no appointments, indicating low utilisation in that area.
+- **Department Workload:** Radiology shows higher activity relative to other departments,
+  highlighting where operational resources may be most needed.
+- **Monthly Appointment Trends:** January and February each recorded 2 appointments,
+ while March had 1 appointment. This indicates slightly higher activity at
+ the start of the year, useful for planning staffing and resource allocation.
+- **Patient Age Analysis:** Average age across patients is 39.2 years,
+  with individual ages ranging from 25 to 56, providing insight into the demographic served.
+- **Appointment Status:** Distribution of appointment statuses identifies completed,
+   pending, or cancelled appointments, informing workflow management.
 
 ---
 
